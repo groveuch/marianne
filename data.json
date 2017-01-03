@@ -1,0 +1,21 @@
+{
+"plans": [
+	{
+	"name":"Plan 1",
+	"duration":["12-16","01-17","02-17","03-17"],
+	"expenses":[
+		{"name":"voiture","values":[110,120,100,10]},
+		{"name":"hotel","values":[47,94,94,0]},
+		{"name":"assurance","values":[60,60,60,60]}
+			],
+	"incomes":[
+		{"name":"facture1","values":[600,0,0,0]},
+		{"name":"facture2","values":[47,0,0,0]},
+		{"name":"facture3","values":[0,0,320,0]}
+			]
+	
+	}
+
+		]
+
+}

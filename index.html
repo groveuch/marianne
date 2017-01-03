@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="content-language" content="en" />
+	<title>Mes finances</title>
+	<link rel="stylesheet" type="text/css" href="default.css">
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+
+	
+
+</head>
+<body>
+
+<div id="layer">
+	<!-- Contact Us Form -->
+		<div id="popupContact">
+		<form action="#" id="addEntry" method="post" name="form">
+		<img id="close" src="http://www.aorank.com/tutorial/createpopupform_livedemo/images/3.png" onclick ="hideLayer()">
+		<h4>Ajouter une entrée</h4><br/>
+		Type: <select id="type" name="type">
+			<option value="expense">Dépense</option>
+			<option value="income">Revenu</option>
+			<option value="month">Mois</option>
+		</select><br/><br/>
+		<input id="name" name="name" placeholder="Intitulé" type="text" size=30><br/><br/>
+		<a href="#" id="submit" onclick="addEntry(),hideLayer()" class="button add">Ajouter</a>
+		</form>
+		</div>
+	<!-- Popup Div Ends Here -->
+</div>
+
+<div class="top">
+	<div class="tab"></div>
+	<div class="tab"></div>
+	<div class="tab"></div>
+</div>
+<div class="middle" id="middle">
+	<div id="table_div"></div>
+</div>
+<div class="bottom"></div>
+
+
+</body>
+
+<script type='text/javascript' src='script.js'></script>
+
+</html>
